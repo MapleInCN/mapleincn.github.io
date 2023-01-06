@@ -7,7 +7,7 @@ document.getElementById('dark-toggler').innerHTML = '<i class="fa-solid fa-light
 document.body.classList.remove( 'dark-mode' );
 document.getElementById('dark-toggler').innerHTML = '<i class="fa-solid fa-moon"></i>深色';
 }
-})
+});
 
 function darkSwitch() {
 var darkMode = document.cookie.split(";")[0].split("=")[1]; 
