@@ -9,6 +9,6 @@ RewriteCond %{HTTP_REFERER} !^.*bing.*$ [NC]
 RewriteCond %{HTTP_REFERER} !^.*william9.space.*$ [NC]
 RewriteRule .(gif|jpg|svg|png|jpeg)$ [R=302,L]
 
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|svg|js)$">
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|svg|js|css)$">
 Header set Cache-Control "max-age=7200"
 </FilesMatch>
